@@ -15,7 +15,7 @@ function Banner() {
           <span className="dark:text-purple-400"> together</span>
         </h1>
         <p className="mt-4 mb-2 text-md text-black sm:mb-6">
-          Join 1% of the Web Developer.
+          Join 1% of the Web Developer. Build a better product
         </p>
         <div className="flex flex-col space-y-2 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
           <a
