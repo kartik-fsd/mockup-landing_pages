@@ -1,12 +1,16 @@
+import Header from "./components/Header/Header"
+import Banner from "./Sections/Banner"
+import Intro from "./Sections/Intro"
+
 function App() {
 
 
   return (
-    <>
-      <div className='text-2xl text-gray-800 '>
-       hello world
-      </div>
-    </>
+    <main className=" h-screen w-full">
+    <Header/>
+    <Banner/>
+    <Intro/>
+    </main>
   )
 }
 
