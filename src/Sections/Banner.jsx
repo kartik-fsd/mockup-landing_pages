@@ -1,7 +1,13 @@
 import banner from "../assets/banner.jpg";
+import bcIMg from "../assets/Polygon.svg";
 function Banner() {
   return (
-    <div className="container flex flex-col justify-center p-6 mx-auto  sm:py-12 lg:py-24 lg:flex-row ">
+    <div
+      className="container flex flex-col justify-center p-6 mx-auto  sm:py-12 lg:py-24 lg:flex-row"
+      style={{
+        backgroundImage: `url(${bcIMg})`,
+      }}
+    >
       <div className="flex items-center justify-center p-4 mt-6 lg:mt-0 h-62 sm:h-70 lg:h-86 xl:h-102 2xl:h-118 rounded-xl">
         <img
           src={banner}
@@ -21,7 +27,7 @@ function Banner() {
           <a
             rel="noopener noreferrer"
             href="#"
-            className="px-5 py-2 text-lg font-semibold rounded dark:bg-purple-400 dark:text-gray-900"
+            className="px-5 py-2 text-lg font-semibold rounded text-gray-800 dark:bg-purple-400 dark:text-gray-50"
           >
             Apply now
           </a>
